@@ -1,0 +1,176 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.offset:before {
+  display: block;
+  content:"";
+  height: 4rem;
+  margin-top: -4rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+} 
+
+/*--- Navigation --*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.navbar-collapse {
+  margin-right: 7rem;
+}
+
+.navbar-brand img {
+  height: 4rem;
+  margin-left: 6.6rem;
+  margin-top: -.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: orangered;
+  padding-left: 3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link:hover {
+color: rgb(228, 90, 39);
+}
+
+.navbar button{
+  background-color: rgb(228, 90, 39);
+  color: white;
+  margin-right: 2rem;
+  border-color: white;
+  padding: .2rem .6rem;
+}
+
+
+.navbar button:hover{
+  background-color: orangered;
+  color: white;
+}
+
+/*Landing*/
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+
+.sale {
+  background-image: url(images/examplebanner.jpg);
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*Services*/
+.jumbotron {
+  margin: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+  color: orangered;
+}
+
+.service svg.svg-inline--fa {
+  color: white;
+}
+
+.service h3 {
+ font-size: 1.3rem;
+ padding-bottom: .4rem;
+ color: white;
+}
+
+.service p {
+  color: white;
+}
+
+.service{
+  background-color: orangered;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+/*Products*/
+
+.products img{
+  width: 100%;
+  height: 25rem;
+}
+
+.products h3{
+  padding-top: 2rem;
+}
+
+#products{
+  background-color: white;
+}
+
+/*Footer*/
+
+footer{
+	background:orangered;
+  padding-top: 5rem;
+	padding: 2.5rem 0 3rem;
+  margin: 0;
+  border-radius: 0;
+}
+
+footer p{
+	color: #fff;
+}
+
+footer a{
+  color: #fff;
+
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+footer .row .co1 {
+
+	text-align: left;
+  margin-top: -1.7rem;
+  margin-bottom:-3rem;
+}
+footer .row .co2 p{
+
+	text-align: center;
+  margin-top: -1.7rem;
+  margin-bottom:-3rem;
+}
+
+footer .row .co3 {
+  text-align: right;
+  margin-top: -1.7rem;
+  margin-bottom:-3rem;
+}
