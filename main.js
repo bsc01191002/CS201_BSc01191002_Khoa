@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     getProducts();
     function getProducts() {
-      let url = "https://fakestoreapi.herokuapp.com/products";
+      let url = "https://fakestoreapi.com/products";
       let xhr = new XMLHttpRequest();
       xhr.open(
         "GET",
@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
           </div>`;
           
       } 
-    
       productsdiv.innerHTML = output;
     }
   })
